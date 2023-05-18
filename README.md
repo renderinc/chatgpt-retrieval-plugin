@@ -355,6 +355,9 @@ Here are detailed deployment instructions for various platforms:
 - [Deploying to Fly.io](/docs/deployment/flyio.md)
 - [Deploying to Heroku](/docs/deployment/heroku.md)
 - [Deploying to Render](/docs/deployment/render.md)
+
+[<img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render" />](https://render.com/deploy?repo=https://github.com/render-examples/chatgpt-retrieval-plugin/tree/main)
+
 - [Other Deployment Options](/docs/deployment/other-options.md) (Azure Container Apps, Google Cloud Run, AWS Elastic Container Service, etc.)
 
 After you create your app, make sure to change the plugin url in your plugin manifest file [here](/.well-known/ai-plugin.json), and in your OpenAPI schema [here](/.well-known/openapi.yaml), and redeploy.
